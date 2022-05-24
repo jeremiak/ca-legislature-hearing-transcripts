@@ -3,7 +3,7 @@ name: Scrape hearing transcripts and extract text
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4 * * 7'
+    - cron: '0 0 1 * *'
 
 jobs:
   run:
