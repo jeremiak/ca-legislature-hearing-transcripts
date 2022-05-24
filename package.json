@@ -4,6 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "start": "npm run step-1 && npm run step-2 && npm run step-3",
+        "step-1": "node steps/step-1-scrape-media-archives.mjs",
+        "step-2": "node steps/step-2-download-transcripts.mjs",
+        "step-3": "node steps/step-3-extract-text.mjs",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
